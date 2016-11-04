@@ -19,7 +19,7 @@ public class Test
             if (inputNumber < 100 && inputNumber > -100 && inputNumber != 42 ) // All numbers at input are integers of one or two digits.
                 storedNumbers += "\n"+inputNumber;
         }
-        System.out.println(storedNumbers); // Display input numbers before number 42.
+        System.out.println(storedNumbers); // Rewrite small numbers from input to output.
     }
 }
 
